@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div class="col-xs-12 col-sm-10 col-sm-offset-1 container">
+    <div class="col-xs-12 col-sm-6 left">
+    <h1 class="header col-xs-12">API Projects: Timestamp Microservice</h1>
+    <p>By Alejandro Chaves |
+        <a href="https://github.com/alejandrochvs/timestamp">Project GitHub</a></p>
+    <section><h2>Instructions</h2>
+        <ol>
+            <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix
+                timestamp or a natural language date.
+            </li>
+            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns <code>null</code> for those properties.</li>
+        </ol>
+    </section>
+    <h2>Example usage:</h2>
+    <a class="btn btn-default" href="https://api-projects-alejandrochvs.c9users.io/March%206%202017">Natural</a><br>
+    <a class="btn btn-default" href="https://api-projects-alejandrochvs.c9users.io/1488758400">UNIX</a>
+    </div>
+    <div class="col-xs-12 col-sm-6 right">
+    <h2>Test your output:</h2>
+    <h3><input  class="input" type="text" name="url" placeholder="March 10 1996"/> <button id="Go" class="btn btn-success">Go</button></h3>
+    <h4><b>Examples</b></h4>
+    - March 6, 2017<br>
+    - 1488758400<br>
+    - January 3 95<br>
+    - March 10 1996
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
